@@ -1,5 +1,5 @@
 # IAIS: Inter-modal Alignment for Intra-modal Self-attentions
-This is the official repository of [IAIS]() (ACL-IJCNLP 2021 main conference).
+This is the official repository of [Learning Relation Alignment for Calibrated Cross-modal Retrieval](https://arxiv.org/abs/2105.13868) (ACL-IJCNLP 2021 main conference).
 
 ![Overview of IAIS](figures/IAIS.png)
 
@@ -93,6 +93,18 @@ We use mixed-precision training hence GPUs with Tensor Cores are recommended.
         horovodrun -np 16 python train_itm_hard_negatives.py \
             --config config/train-itm-coco-base-16gpu-hn.json --IAIS [singular, distributed]
         ```
+
+## Citation
+
+If you find this code useful for your research, please consider citing:
+```
+@inproceedings{ren2021iais,
+  title={Learning Relation Alignment for Calibrated Cross-modal Retrieval},
+  author={Shuhuai Ren, Junyang Lin, Guangxiang Zhao, Rui Men, An Yang, Jingren Zhou, Xu Sun, Hongxia Yang},
+  booktitle={ACL-IJCNLP},
+  year={2021}
+}
+```
 
 ## License
 
