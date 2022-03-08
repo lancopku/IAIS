@@ -117,10 +117,10 @@ If you have any questions related to the code or the paper, feel free to email S
 If you find this code useful for your research, please consider citing:
 ```
 @inproceedings{ren2021iais,
-  title={Learning Relation Alignment for Calibrated Cross-modal Retrieval},
-  author={Shuhuai Ren, Junyang Lin, Guangxiang Zhao, Rui Men, An Yang, Jingren Zhou, Xu Sun, Hongxia Yang},
-  booktitle={ACL-IJCNLP},
-  year={2021}
+    title = "Learning Relation Alignment for Calibrated Cross-modal Retrieval",
+    author = "Ren, Shuhuai and Lin, Junyang and Zhao, Guangxiang and Men, Rui and Yang, An and Zhou, Jingren and Sun, Xu and Yang, Hongxia",
+    booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+    year = "2021",
 }
 ```
 
