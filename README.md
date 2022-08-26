@@ -17,6 +17,9 @@ The image features are extracted using [BUTD](https://github.com/peteanderson80/
 2. We design a novel **metric: Intra-modal Self-attention Distance with annotation (ISDa)** to measure the consistency between textual and visual relations.
 3. We propose a new **regularized training method** called **Inter-modal Alignment on Intra-modal Self-attentions (IAIS)** to calibrate two intra-modal attention distributions mutually via inter-modal alignment, which helps learn better contextualized representations for image-text pairs.
  
+## Update
+Please refer to [Google Drive](https://drive.google.com/drive/folders/1ErSpcN8PiRgaQIPjhDLJ_My4PctyZzqt?usp=sharing) for our fine-tuned checkpoints and logs for MS COCO and Flickr30k.
+
 ## Requirements
 We provide Docker image for easier reproduction. Please install the following:
   - [nvidia driver](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#package-manager-installation) (418+), 
