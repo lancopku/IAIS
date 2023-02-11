@@ -1,4 +1,10 @@
 # IAIS: Inter-modal Alignment for Intra-modal Self-attentions
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/cross-modal-attention-congruence/visual-reasoning-on-winoground)](https://paperswithcode.com/sota/visual-reasoning-on-winoground?p=cross-modal-attention-congruence)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/learning-relation-alignment-for-calibrated/image-to-text-retrieval-on-coco)](https://paperswithcode.com/sota/image-to-text-retrieval-on-coco?p=learning-relation-alignment-for-calibrated)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/learning-relation-alignment-for-calibrated/cross-modal-retrieval-on-flickr30k)](https://paperswithcode.com/sota/cross-modal-retrieval-on-flickr30k?p=learning-relation-alignment-for-calibrated)
+
+
 This repository contains the code for our paper [Learning Relation Alignment for Calibrated Cross-modal Retrieval](https://arxiv.org/abs/2105.13868) (ACL-IJCNLP 2021 main conference).
 
 ![Overview of IAIS](figures/IAIS.png)
@@ -18,7 +24,7 @@ The image features are extracted using [BUTD](https://github.com/peteanderson80/
 3. We propose a new **regularized training method** called **Inter-modal Alignment on Intra-modal Self-attentions (IAIS)** to calibrate two intra-modal attention distributions mutually via inter-modal alignment, which helps learn better contextualized representations for image-text pairs.
  
 ## Update
-Please refer to [Google Drive](https://drive.google.com/drive/folders/1ErSpcN8PiRgaQIPjhDLJ_My4PctyZzqt?usp=sharing) for our fine-tuned checkpoints and logs for MS COCO and Flickr30k.
+Please refer to [Github Release](https://github.com/lancopku/IAIS/releases/tag/v0.1.0) for our fine-tuned checkpoints and logs for MS COCO and Flickr30k.
 
 ## Requirements
 We provide Docker image for easier reproduction. Please install the following:
