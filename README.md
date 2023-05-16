@@ -1,6 +1,6 @@
 # IAIS: Inter-modal Alignment for Intra-modal Self-attentions
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/cross-modal-attention-congruence/visual-reasoning-on-winoground)](https://paperswithcode.com/sota/visual-reasoning-on-winoground?p=cross-modal-attention-congruence)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/learning-relation-alignment-for-calibrated/visual-reasoning-on-winoground)](https://paperswithcode.com/sota/visual-reasoning-on-winoground?p=learning-relation-alignment-for-calibrated)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/learning-relation-alignment-for-calibrated/image-to-text-retrieval-on-coco)](https://paperswithcode.com/sota/image-to-text-retrieval-on-coco?p=learning-relation-alignment-for-calibrated)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/learning-relation-alignment-for-calibrated/cross-modal-retrieval-on-flickr30k)](https://paperswithcode.com/sota/cross-modal-retrieval-on-flickr30k?p=learning-relation-alignment-for-calibrated)
 
@@ -16,15 +16,17 @@ Some code in this repo are copied/modified from [UNITER](https://github.com/Chen
 [OpenNMT](https://github.com/OpenNMT/OpenNMT-py),
 and [Nvidia](https://github.com/NVIDIA/DeepLearningExamples/tree/master/PyTorch).
 The image features are extracted using [BUTD](https://github.com/peteanderson80/bottom-up-attention).
+ 
+## Update
+[2023.02] Please refer to [Github Release](https://github.com/lancopku/IAIS/releases/tag/v0.1.0) for our fine-tuned checkpoints and logs for MS COCO and Flickr30k.
+
+[2022.12] According to the researchers from CMU, our IAIS algorithm achieves a new SOTA on the **Winoground** dataset with a 10% improvement on VinVL (Oscar+) and a 52% improvement on UNITER. Thanks for the interesting work. Their paper: [link](https://arxiv.org/abs/2212.10549).
 
 ## Overview
 
 1. We propose a **Relation Consistency Hypothesis**: Given a matched image-text pair, the linguistic relation should agree with the visual relation.
 2. We design a novel **metric: Intra-modal Self-attention Distance with annotation (ISDa)** to measure the consistency between textual and visual relations.
 3. We propose a new **regularized training method** called **Inter-modal Alignment on Intra-modal Self-attentions (IAIS)** to calibrate two intra-modal attention distributions mutually via inter-modal alignment, which helps learn better contextualized representations for image-text pairs.
- 
-## Update
-Please refer to [Github Release](https://github.com/lancopku/IAIS/releases/tag/v0.1.0) for our fine-tuned checkpoints and logs for MS COCO and Flickr30k.
 
 ## Requirements
 We provide Docker image for easier reproduction. Please install the following:
